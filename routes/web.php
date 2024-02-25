@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('/register',[UserController::class,'loadRegister'])->name('register');
-Route::get('/register',[UserController::class,'register'])->name('register.store');
+Route::post('/register',[UserController::class,'register'])->name('register.store');
 
 
 
