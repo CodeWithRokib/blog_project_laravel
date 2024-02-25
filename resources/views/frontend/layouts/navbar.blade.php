@@ -12,6 +12,9 @@
         <li class="nav-item active">
           <a class="nav-link text-white" href="#">About</a>
         </li>
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="#">Fiverr</a>
+        </li>
         
       </ul>
       <form class="form-inline my-2 my-lg-0">
@@ -19,10 +22,10 @@
         <button class="btn btn-outline-success my-2 my-sm-0 mr-1" type="submit">Search</button>
         <ul class="navbar-nav mr-auto">
           <li>
-          <a class="btn btn-outline-success my-2 my-sm-0 mr-1" >Login</a>
+          <a class="btn btn-outline-success my-2 my-sm-0 mr-1" href="{{route('login')}}" >Login</a>
           </li>
           <li>
-          <a class="btn btn-outline-success my-2 my-sm-0" >Sign-In</a>
+          <a class="btn btn-outline-success my-2 my-sm-0" href="{{route('register')}}" >Sign-In</a>
           </li>
         </ul>
       </form>
